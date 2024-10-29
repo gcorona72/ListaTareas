@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gestor de Tareas</string>
+    <string name="new_task">Nueva tarea</string>
+    <string name="add_task">Añadir tarea</string>
+    <string name="pending">Pendientes</string>
+    <string name="done">Hechas</string>
+</resources>
