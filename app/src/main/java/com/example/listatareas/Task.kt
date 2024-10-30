@@ -1,7 +1,11 @@
 package com.example.listatareas
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "tasks")
 data class Task(
-    val id: Int,
+    @PrimaryKey val id: Int,
     val description: String,
     var isDone: Boolean = false
 )
